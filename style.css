@@ -192,7 +192,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -305,4 +305,33 @@ form .btn-enviar input{
 form .btn-enviar input:hover{
     box-shadow: 0 0 20px #2e0c84;
     transform: scale(1.10);
+}
+
+/* ESTILOS DO RODAPÉ */
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #5c5c5c;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+    borde
+}
+
+footer .line-footer p i{
+    color: #b1e846;
+    font-size: 25px;
+}
+footer .line-footer p a{
+    color: #fff;
+    font-size: 15px;
+}
+
+.borda{
+    border-top: 2px #b1e846 solid;
 }
