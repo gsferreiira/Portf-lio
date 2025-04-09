@@ -36,6 +36,15 @@ body{
     color: #b1e846;
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color:#2e0c84;
+}
 /* ESTILO DO CABEÇALHO */
 header{
     padding: 40px 4%;
@@ -92,7 +101,7 @@ section.topo-do-site .flex{
     line-height: 40px;
 }
 .topo-do-site span{
-    color: #b1e846;
+    color: #2e0c84;
     font-size: 50px;
 }
 .topo-do-site p{
@@ -114,4 +123,35 @@ section.topo-do-site .flex{
     100%{
         top: 40px;
     }
+}
+/* ESTILO DAS ESPECIALIDADES */
+section.especialidades{
+    padding: 40px 4%;
+
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+.especialidades .especialidades-box{
+    color: #fff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 20px #ffffff98;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color:#2e0c84;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
 }
