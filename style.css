@@ -70,7 +70,7 @@ header nav ul li{
 
 .btn-contato button:hover{
     box-shadow: 0px 0px 8px #2e0c84e3;
-    transform: scale(1.5);
+    transform: scale(1.1);
     transition: .2s;
 }
 
@@ -88,7 +88,7 @@ section.topo-do-site .flex{
 
 .topo-do-site h1{
     color: #fff;
-    font-size: 40px;
+    font-size: 44px;
     line-height: 40px;
 }
 .topo-do-site span{
@@ -97,7 +97,21 @@ section.topo-do-site .flex{
 }
 .topo-do-site p{
     color: #fff;
-    font-size: 34px;
+    font-size: 30px;
     margin: 40px 0px;
 }
 
+.topo-do-site .img-topo-site{
+    position: relative;
+    animation: flutuar 1s ease-in-out infinite alternate;
+
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 40px;
+    }
+}
