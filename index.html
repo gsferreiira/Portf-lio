@@ -26,14 +26,14 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
             <div class="btn-contato">
-                <a href="#">
+                <a href="#contato">
                     <button>Contato</button>
                 </a>
             </div>
@@ -51,7 +51,7 @@
                         <p>
                             Desenvolvimento de sistemas e sites personalizados, com foco em performance, usabilidade e escalabilidade. Automatização de processos para ganhar tempo e eficiência. Integração inteligente entre plataformas para centralizar e otimizar operações.
                         <div class="btn-contato">
-                            <a href="">
+                            <a href="#contato">
                                 <button class="btn-contato">Entre em contato</button>
                             </a>
                         </div><!--Btncontato-->
@@ -70,17 +70,17 @@
                     <div class="especialidades-box">
                         <i class="bi bi-code-square"></i>
                         <h3>Website</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum repudiandae exercitationem eveniet commodi adipisci minus nam explicabo necessitatibus atque modi vero, aut, laboriosam voluptates beatae nesciunt quibusdam. Explicabo, non eius.</p>
+                        <p>Criação de sites modernos e responsivos utilizando HTML5, CSS3 e JavaScript, com foco em usabilidade, performance e compatibilidade entre dispositivos. Experiência também com integração de APIs, animações, boas práticas de semântica e versionamento com Git.</p>
                     </div><!--Especialidades-box-->
                     <div class="especialidades-box">
-                        <i class="bi bi-cart"></i>
-                        <h3>Loja online</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum repudiandae exercitationem eveniet commodi adipisci minus nam explicabo necessitatibus atque modi vero, aut, laboriosam voluptates beatae nesciunt quibusdam. Explicabo, non eius.</p>
+                        <i class="bi bi-palette-fill"></i>
+                        <h3>Design Gráfico</h3>
+                        <p>Transformo a identidade visual do seu negócio, criando designs impactantes que destacam sua marca e comunicam sua mensagem de forma clara, envolvente e com propósito, conectando sua empresa ao público de forma eficaz.</p>
                     </div><!--Especialidades-box-->
                     <div class="especialidades-box">
                         <i class="bi bi-robot"></i>
                         <h3>Automação</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum repudiandae exercitationem eveniet commodi adipisci minus nam explicabo necessitatibus atque modi vero, aut, laboriosam voluptates beatae nesciunt quibusdam. Explicabo, non eius.</p>
+                        <p>Desenvolvo soluções automatizadas para atendimento e respostas rápidas, otimizando processos e garantindo uma comunicação eficiente, personalizada e disponível 24/7, tudo isso com foco em melhorar a experiência do usuário e aumentar a produtividade.</p>
                     </div><!--Especialidades-box-->
                 </div><!--Flex-->
             </div><!--Interface-->
@@ -96,8 +96,8 @@
 
                     <div class="txt-sobre">
                         <h2>Muito prazer, sou <span>Gabriel Ferreira dos Santos.</span></h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet necessitatibus consequuntur fuga deserunt similique, repudiandae, vel velit aliquid quia doloremque ab quas placeat eos optio, quod temporibus corrupti delectus consequatur.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deleniti quae facilis eligendi sit nemo impedit delectus maxime optio repellendus numquam dolore molestias aliquid repudiandae, natus ad perferendis quo minus!</p>
+                        <p>Sou estudante de Engenharia de Software e trabalho com tecnologia há 1 ano, atuando tanto no desenvolvimento quanto como instrutor. Amo ensinar, aprender e me desafiar com novos projetos. Meu objetivo é crescer na área de desenvolvimento, criando soluções úteis e impactantes.</p>
+                        <p>Atualmente, estou me preparando para novos desafios e buscando uma oportunidade para contribuir com meu conhecimento e continuar evoluindo como profissional.</p>
                         <div class="btn-social">
                             <a href="https://www.instagram.com/ferreiiradev/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
                             <a href="https://www.linkedin.com/in/gsferreiiraa/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
@@ -108,7 +108,7 @@
             </div><!--Interface-->
         </section><!--Sobre-->
 
-        <section class="portfolio" id="portfolio">
+        <section class="portfolio" id="projetos">
                 <div class="interface">
                     <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
                     <div class="flex">
@@ -125,14 +125,14 @@
                 </div><!--Interface-->
         </section><!--portfolio-->
 
-        <section class="formulario">
+        <section class="formulario" id="contato">
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
                 <form action="envia.php" method="post">
                     <input type="text" name="nome" id="nome" placeholder="Seu nome:" required>
                     <input type="text" name="email" id="email" placeholder="Seu email:" required>
-                    <input type="text" name="celular" id="celular" placeholder="Seu celular" required>
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <input type="text" name="celular" id="celular" placeholder="Seu celular:" required>
+                    <textarea name="" id="" placeholder="Sua mensagem:" required></textarea>
                     <div class="btn-enviar">
                         <input type="submit" value="Enviar">
                     </div>

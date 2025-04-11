@@ -211,7 +211,7 @@ section.sobre .flex {
     margin: 0 5px;
 }
 
-.sobre .txt-sobre .btn-social button:hover {
+.btn-social button:hover {
     box-shadow: 0px 0px 18px #2e0c84;
     transform: scale(1.15);
     transition: .2s;
@@ -344,55 +344,4 @@ footer .line-footer p a {
 
 .borda {
     border-top: 2px #b1e846 solid;
-}
-
-@media screen and (max-width: 1350px) {
-
-    /* CLASSES GERAIS */
-    .flex {
-        flex-direction: column;
-    }
-
-    .topo-do-site .flex {
-        flex-direction: column-reverse;
-    }
-
-    /* CABEÇALHO */
-    .menu-desktop,
-    .btn-contato {
-        display: none;
-    }
-
-    /* TOPO DO SITE */
-    section.topo-do-site {
-        padding: 0px 8%;
-    }
-
-    .topo-do-site h1 {
-        font-size: 30px;
-    }
-    .topo-do-site p {
-        font-size: 20px;
-    }
-
-    .topo-do-site .img-topo-site {
-        width: 110%;
-    }
-
-    section.topo-do-site .flex {
-        gap: 40px;
-    }
-
-    section.especialidades {
-        padding: 40px 12%;
-    }
-    section .topo-do-site span {
-        color: #2e0c84;
-        font-size: 30px;
-    }
-
-    /* ESPECIALIDADES */
-    section .especialidades{
-        padding: 40px 8%;
-    }
 }
